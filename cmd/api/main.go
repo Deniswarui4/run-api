@@ -18,7 +18,7 @@ func main() {
 		log.Println("No .env file found, using system environment variables")
 	}
 
-	// Load configuration
+	// Load configuration...
 	cfg := config.LoadConfig()
 
 	// Initialize database
