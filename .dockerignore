@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Environment
+.env
+.env.*
+
+# Documentation
+*.md
+!README.md
+
+# Development
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Testing
+coverage.out
+coverage.html
+*.test
+
+# Build artifacts
+bin/
+tmp/
+
+# Storage (use volumes instead)
+storage/
+
+# Scripts (not needed in container)
+scripts/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
